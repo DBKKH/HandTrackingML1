@@ -1,0 +1,11 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="d8f2baed-d178-4c12-8189-40394254a607" ml:package="com.company.handtracking" ml:version_code="1" ml:version_name="">
+  <application ml:sdk_version="1.0" ml:visible_name="hellocube">
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
+    <uses-privilege ml:name="WorldReconstruction" />
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="hellocube">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+  </application>
+</manifest>
